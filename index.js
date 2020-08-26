@@ -26,5 +26,5 @@ const greet = function(string) {
 /* Write your implementation of displayMessage() */
 const displayMessage = function (string) {
  const greeting = document.getElementById('greeting')
-  greeting.innerText = string
+  greeting.innerText = string 
 }
