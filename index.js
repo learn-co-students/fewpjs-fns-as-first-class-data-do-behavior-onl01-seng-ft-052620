@@ -12,7 +12,7 @@ function handleClick(e) {
 /* Write your implementation of greet() */
 
 function greet(time) {
-  const timeNow = parseInt(time, 10);
+  let timeNow = parseInt(time)
   if (timeNow < 12) return "Good Morning"
   if (timeNow > 17) return "Good Evening"
   return "Good Afternoon"
